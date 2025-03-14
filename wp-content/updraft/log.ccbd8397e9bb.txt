@@ -1,0 +1,111 @@
+0000.005 () Opened log file at time: Fri, 14 Mar 2025 23:10:14 +0000 on http://portfolio.local
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 7.4.1 (fpm-fcgi, Darwin negishiyurinanoMacBook-Pro.local 22.6.0 Darwin Kernel Version 22.6.0: Fri Nov 15 17:21:49 PST 2024; root:xnu-8796.141.3.709.7~2/RELEASE_X86_64 x86_64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.6M | 4M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 40806.2 MB
+0000.024 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Fri, 14 Mar 2025 23:10:15 +0000 on http://portfolio.local
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 7.4.1 (fpm-fcgi, Darwin negishiyurinanoMacBook-Pro.local 22.6.0 Darwin Kernel Version 22.6.0: Fri Nov 15 17:21:49 PST 2024; root:xnu-8796.141.3.709.7~2/RELEASE_X86_64 x86_64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.5M | 2M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 40806.2 MB
+0000.005 () Ensuring WP_Filesystem is setup for a restore
+0000.006 () WP_Filesystem is setup and ready for a restore
+0000.012 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_wpfm_backup"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.020 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.024 () Entity: db
+0000.024 () restore_backup(backup_file=backup_2025-03-15-0805_PORTFOLIO_ab93f9945495-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.024 () Unpacking backup... (backup_2025-03-15-0805_PORTFOLIO_ab93f9945495-db.gz, 0.1 Mb)
+0000.027 () Database successfully unpacked
+0000.027 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.028 () Using direct MySQL access; value of use_mysqli is: 1
+0000.029 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.119 () Max packet size: 32 MB
+0000.119 () Entering maintenance mode
+0000.119 () Enabling Maintenance mode&#8230;
+0000.151 () Backup of: https://yuri1030.stars.ne.jp
+0000.182 () Content URL: https://yuri1030.stars.ne.jp/wp-content
+0000.182 () Uploads URL: https://yuri1030.stars.ne.jp/wp-content/uploads
+0000.183 () Old table prefix: wp_
+0000.184 () Old ABSPATH: /home/yuri1030/yuri1030.stars.ne.jp/public_html/
+0000.185 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.186 () Site information: multisite=0
+0000.187 () Site information: sql_mode=
+0000.188 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.189 () New table prefix: n8_
+0000.194 () Processing table (InnoDB): wp_options - will restore as: n8_options
+0000.252 () Atomic restore: dropping original table (wp_options)
+0000.260 () Atomic restore: renaming new table (n8_options) to final table name (wp_options)
+0000.268 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.591 () Search and replacing table: wp_options: rows: 286
+0000.656 () Incomplete object detected in database: WpOrg\Requests\Utility\CaseInsensitiveDictionary; Search and replace will be skipped for these entries
+0000.675 () Processing table (InnoDB): wp_users - will restore as: n8_users
+0000.696 () Atomic restore: dropping original table (wp_users)
+0000.709 () Atomic restore: renaming new table (n8_users) to final table name (wp_users)
+0000.720 () Search and replacing table: wp_users: rows: 1
+0000.721 () Processing table (InnoDB): wp_usermeta - will restore as: n8_usermeta
+0000.738 () Atomic restore: dropping original table (wp_usermeta)
+0000.743 () Atomic restore: renaming new table (n8_usermeta) to final table name (wp_usermeta)
+0000.754 () Search and replacing table: wp_usermeta: rows: 37
+0000.759 () Processing table (InnoDB): wp_commentmeta - will restore as: n8_commentmeta
+0000.777 () Atomic restore: dropping original table (wp_commentmeta)
+0000.782 () Atomic restore: renaming new table (n8_commentmeta) to final table name (wp_commentmeta)
+0000.791 () Search and replacing table: wp_commentmeta: rows: 0
+0000.791 () Processing table (InnoDB): wp_comments - will restore as: n8_comments
+0000.811 () Atomic restore: dropping original table (wp_comments)
+0000.818 () Atomic restore: renaming new table (n8_comments) to final table name (wp_comments)
+0000.831 () Search and replacing table: wp_comments: rows: 0
+0000.831 () Processing table (InnoDB): wp_links - will restore as: n8_links
+0000.846 () Atomic restore: dropping original table (wp_links)
+0000.852 () Atomic restore: renaming new table (n8_links) to final table name (wp_links)
+0000.865 () Search and replacing table: wp_links: rows: 0
+0000.865 () Processing table (InnoDB): wp_postmeta - will restore as: n8_postmeta
+0001.196 () Atomic restore: dropping original table (wp_postmeta)
+0001.209 () Atomic restore: renaming new table (n8_postmeta) to final table name (wp_postmeta)
+0001.225 () Search and replacing table: wp_postmeta: rows: 90
+0001.246 () Processing table (InnoDB): wp_posts - will restore as: n8_posts
+0001.310 () Atomic restore: dropping original table (wp_posts)
+0001.318 () Atomic restore: renaming new table (n8_posts) to final table name (wp_posts)
+0001.326 () Skipping search/replace on GUID column in posts table
+0001.329 () Search and replacing table: wp_posts: rows: 339
+0001.631 () Processing table (InnoDB): wp_term_relationships - will restore as: n8_term_relationships
+0001.651 () Atomic restore: dropping original table (wp_term_relationships)
+0001.656 () Atomic restore: renaming new table (n8_term_relationships) to final table name (wp_term_relationships)
+0001.663 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.664 () Processing table (InnoDB): wp_term_taxonomy - will restore as: n8_term_taxonomy
+0001.717 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.722 () Atomic restore: renaming new table (n8_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.732 () Search and replacing table: wp_term_taxonomy: rows: 31
+0001.736 () Processing table (InnoDB): wp_termmeta - will restore as: n8_termmeta
+0001.751 () Atomic restore: dropping original table (wp_termmeta)
+0001.757 () Atomic restore: renaming new table (n8_termmeta) to final table name (wp_termmeta)
+0001.767 () Search and replacing table: wp_termmeta: rows: 0
+0001.767 () Processing table (InnoDB): wp_terms - will restore as: n8_terms
+0001.784 () Atomic restore: dropping original table (wp_terms)
+0001.789 () Atomic restore: renaming new table (n8_terms) to final table name (wp_terms)
+0001.798 () Search and replacing table: wp_terms: rows: 31
+0001.802 () Processing table (InnoDB): wp_wpfm_backup - will restore as: n8_wpfm_backup
+0001.809 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.885 () Unlocking database and leaving maintenance mode
+0001.886 () Disabling Maintenance mode&#8230;
+0001.887 () Atomic restore: dropping original table (wp_wpfm_backup)
+0001.893 () Atomic restore: renaming new table (n8_wpfm_backup) to final table name (wp_wpfm_backup)
+0001.903 () Search and replacing table: wp_wpfm_backup: rows: 0
+0001.903 () Finished: lines processed: 45 in 1.87 seconds
+0001.904 () Cleaning up rubbish...
+0001.904 () Begin search and replace (updraftplus_restored_db)
+0001.904 () [Database-replace-site-url] Database: search and replace site URL
+0001.905 () Database search and replace: replace https://yuri1030.stars.ne.jp in backup dump with http://portfolio.local
+0001.906 () Database search and replace: replace http://www.yuri1030.stars.ne.jp in backup dump with http://portfolio.local
+0001.906 () Database search and replace: replace http://yuri1030.stars.ne.jp in backup dump with http://portfolio.local
+0001.907 () Database search and replace: replace https://www.yuri1030.stars.ne.jp in backup dump with http://portfolio.local
+0001.907 () Database search and replace: replace /home/yuri1030/yuri1030.stars.ne.jp/public_html in backup dump with /Users/yuri9mtk/Local Sites/portfolio/app/public
+0001.911 () Search and replacing table: wp_commentmeta: already done
+0001.912 () Search and replacing table: wp_comments: already done
+0001.913 () Search and replacing table: wp_links: already done
+0001.915 () Search and replacing table: wp_options: already done
+0001.916 () Search and replacing table: wp_postmeta: already done
+0001.917 () Search and replacing table: wp_posts: already done
+0001.918 () Search and replacing table: wp_term_relationships: already done
+0001.918 () Search and replacing table: wp_term_taxonomy: already done
+0001.919 () Search and replacing table: wp_termmeta: already done
+0001.921 () Search and replacing table: wp_terms: already done
+0001.921 () Search and replacing table: wp_usermeta: already done
+0001.922 () Search and replacing table: wp_users: already done
+0001.923 () Search and replacing table: wp_wpfm_backup: already done
