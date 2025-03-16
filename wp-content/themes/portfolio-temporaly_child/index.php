@@ -11,7 +11,7 @@ get_header();
 		<!--home-main-->
 		<section class="home-main">
 <div class="wrapper">
-	<h1>バブさん</h1>
+	<h1> pupunikou</h1>
 	<p>Yurina Negishi</p>
 </div>
 		</section>
